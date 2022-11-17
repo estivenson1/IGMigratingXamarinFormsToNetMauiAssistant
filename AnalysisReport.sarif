@@ -1,0 +1,285 @@
+﻿{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Dependency Analysis",
+          "semanticVersion": "0.4.355802",
+          "informationUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview",
+          "rules": [
+            {
+              "id": "UA105",
+              "name": "PackageToBeDeleted",
+              "fullDescription": {
+                "text": "Packages that need to be deleted in order to upgrade the project to chosen TFM"
+              },
+              "helpUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview"
+            },
+            {
+              "id": "UA106",
+              "name": "PackageToBeAdded",
+              "fullDescription": {
+                "text": "Packages that need to be added in order to upgrade the project to chosen TFM"
+              },
+              "helpUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "UA105",
+          "message": {
+            "text": "Package Xamarin.Forms, Version=5.0.0.2515 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp.Android/XFToNetMauiAssistantApp.Android.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "message": {
+            "text": "Package Xamarin.Essentials, Version=1.7.3 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp.Android/XFToNetMauiAssistantApp.Android.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA106",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.4.355802 needs to be added."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp.Android/XFToNetMauiAssistantApp.Android.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "message": {
+            "text": "Package Xamarin.Forms, Version=5.0.0.2515 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp.iOS/XFToNetMauiAssistantApp.iOS.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "message": {
+            "text": "Package Xamarin.Essentials, Version=1.7.3 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp.iOS/XFToNetMauiAssistantApp.iOS.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA106",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.4.355802 needs to be added."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp.iOS/XFToNetMauiAssistantApp.iOS.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "message": {
+            "text": "Package Xamarin.Forms, Version=5.0.0.2515 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "message": {
+            "text": "Package Xamarin.Essentials, Version=1.7.3 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA106",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.4.355802 needs to be added."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "API Upgradability",
+          "semanticVersion": "0.4.355802",
+          "informationUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview",
+          "rules": [
+            {
+              "id": "UA0014",
+              "name": ".NET MAUI projects should not reference Xamarin.Forms namespaces",
+              "fullDescription": {
+                "text": ".NET MAUI projects should not reference Xamarin.Forms namespaces"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "UA0014",
+          "message": {
+            "text": "Namespace 'Xamarin.Forms' should not be referenced in .NET MAUI projects"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp/App.xaml.cs"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA0014",
+          "message": {
+            "text": "Namespace 'Xamarin.Forms.Xaml' should not be referenced in .NET MAUI projects"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp/App.xaml.cs"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA0014",
+          "message": {
+            "text": "Namespace 'Xamarin.Forms.Xaml' should not be referenced in .NET MAUI projects"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp/AssemblyInfo.cs"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA0014",
+          "message": {
+            "text": "Namespace 'Xamarin.Forms' should not be referenced in .NET MAUI projects"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/Dev/IGMigratingXamarinFormsToNetMauiAssistant/XFToNetMauiAssistantApp/XFToNetMauiAssistantApp/MainPage.xaml.cs"
+                },
+                "region": {
+                  "startLine": 7
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Component Analysis",
+          "semanticVersion": "0.4.355802",
+          "informationUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview"
+        }
+      },
+      "results": [],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}
